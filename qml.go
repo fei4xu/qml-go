@@ -10,7 +10,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/limetext/qml-go/internal/util"
+	"github.com/limetext/qml-go/util"
 )
 
 func AddLibraryPath(path string) {

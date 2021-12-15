@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/limetext/qml-go/internal/util"
+	"github.com/limetext/qml-go/util"
 )
 
 type QImage interface {

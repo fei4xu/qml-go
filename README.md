@@ -155,3 +155,10 @@ and [Qt 5.0.2](http://download.qt-project.org/archive/qt/5.0/5.0.2/)
 directly from the upstreams.  Note that you'll likely have to adapt
 environment variables to reflect the custom installation path for
 these libraries. See the instructions above for examples.
+
+## Build
+```sh
+export CGO_CXXFLAGS="-I/usr/include/x86_64-linux-gnu/qt5/QtCore/5.9.5/"
+go build
+```
+`CGO_CXXFLAGS` is for `#include <QtCore/private/qglobal_p.h>`, change to your local version/path.

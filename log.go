@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/limetext/qml-go/internal/util"
+	"github.com/limetext/qml-go/util"
 )
 
 // SetLogger sets the target for messages logged by the qml package,

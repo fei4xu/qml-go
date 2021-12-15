@@ -21,8 +21,8 @@ import (
 	"unsafe"
 
 	"github.com/limetext/qml-go/cdata"
-	"github.com/limetext/qml-go/internal/util"
 	"github.com/limetext/qml-go/qpainter"
+	"github.com/limetext/qml-go/util"
 )
 
 type mainThreadFunc struct {
